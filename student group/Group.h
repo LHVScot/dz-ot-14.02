@@ -33,7 +33,7 @@ public:
     }
 
     void printGrades() const {
-        cout << "Grades for group: " << name << endl;
+        cout << "Оценки для группы: " << name << endl;
         for (const auto& subject : subjects) {
             cout << subject.getName() << ": ";
             for (const auto& student : students) {
@@ -46,7 +46,7 @@ public:
     }
 
     void printAverageGrades() const {
-        cout << "Average grades for students:" << endl;
+        cout << "Средние оценки для учащихся:" << endl;
         for (const auto& student : students) {
             cout << student.getName() << ": " << fixed << setprecision(2)
                 << student.getAverageGrade() << endl;

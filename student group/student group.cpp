@@ -22,11 +22,11 @@ int main() {
     Group group("Group A");
 
     string studentsFile, subjectsFile, gradesFile;
-    cout << "Enter the name of the students file: ";
+    cout << "Введите имя файла учащихся: ";
     cin >> studentsFile;
-    cout << "Enter the name of the subjects file: ";
+    cout << "Введите имя файла темы: ";
     cin >> subjectsFile;
-    cout << "Enter the name of the grades file: ";
+    cout << "Введите имя файла оценок: ";
     cin >> gradesFile;
 
     loadData(group, studentsFile, subjectsFile, gradesFile);
